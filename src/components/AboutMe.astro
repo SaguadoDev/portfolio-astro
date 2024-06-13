@@ -1,0 +1,65 @@
+---
+import Arrow from '@/components/icons/Arrow.astro'
+
+const skills = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'TypeScript',
+  'React',
+  'Astro',
+  'Tailwind',
+  'Bootstrap',
+  'Java',
+  'Spring Boot',
+  'Python',
+  'MySQL',
+  'Oracle',
+  'AWS',
+  'Git',
+  'Docker'
+]
+---
+
+<article
+  class='flex flex-col items-center justify-center gap-8 text-gray-400 md:flex-row mx-5 sm:mx-0 mb-5'
+>
+  <div class='[&>p]:mb-4 [&>p>strong]:text-white text-pretty order-2 md:order-1'>
+    <p>
+      Soy Sergio, un apasionado Desarrollador Full Stack, especializado en dar vida a
+      ideas en el vasto mundo del desarrollo web. Actualmente estoy en segundo curso de
+      <strong>Desarrollo de Aplicaciones Web (DAW)</strong>, y estoy deseando hacer la <strong
+        >especialización en Inteligencia Artificial y Big Data.</strong
+      >
+    </p>
+
+    <p>
+      <em class='italic font-semibold text-white'
+        >“Technology is moving at such a pace that if you stand still, you'll miss
+        everything that's happening.”</em
+      > Este es el lema que sigo como filosofía en el ámbito tecnológico, dicho lema me ayuda
+      siempre a <strong>seguir adelante y estar en constante aprendizaje</strong>,
+      manteniendo así viva mi ambición de crecer como desarrollador.
+    </p>
+
+    <p>
+      En mi tiempo libre disfruto <strong>viendo los deportes que me gustan</strong>,
+      visualizando videos tecnológicos y escuchando y alimentando mi pasión por la música,
+      entre otras cosas.
+    </p>
+    <p>Aquí hay algunas tecnologías con las que he estado trabajando recientemente:</p>
+    <ul
+      class='grid grid-cols-3 gap-x-6 md:gap-x-10 gap-y-0 p-0 overflow-hidden list-none lg:grid-cols-4'
+    >
+      {
+        skills &&
+          skills.map((skill) => (
+            <li class='text-sm flex items-center mb-2.5 text-slate-300'>
+              <Arrow class='rotate-90 inline me-2 w-2.5 text-teal-300' />
+              {skill}
+            </li>
+          ))
+      }
+    </ul>
+  </div>
+</article>

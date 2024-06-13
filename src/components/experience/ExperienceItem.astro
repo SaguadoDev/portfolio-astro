@@ -1,0 +1,86 @@
+---
+import LinkIcon from '../icons/LinkIcon.astro'
+
+interface Props {
+  title: string
+  company: string
+  description: string
+  link?: string
+  startDate: string
+  endDate: string
+  location: string
+  skills: string[]
+  imageName: string
+}
+
+const {
+  title,
+  company,
+  description,
+  link,
+  startDate,
+  endDate,
+  location,
+  skills,
+  imageName
+} = Astro.props
+---
+
+<div
+  class='group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 min-h-[220px]'
+>
+  <span
+    class='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-700/30 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg max-h-[220px]'
+  ></span>
+  <div class='sm:col-span-1'>
+    <img
+      width={200}
+      height={48}
+      alt={`Image of the job experience ${title} at ${company} of Sergio Aguado`}
+      class='z-10 rounded transitio hidden md:inline-block mt-2 w-20 mx-auto group-hover:scale-110'
+      src={`/experience/${imageName}.webp`}
+      style={{ color: 'transparent' }}
+    />
+  </div>
+  <div class='sm:col-span-6'>
+    <h3>
+      <a
+        class='inline-flex items-baseline font-medium leading-tight text-white hover:text-teal-200 focus-visible:text-teal-200 group/link text-base'
+        href={link || '#'}
+        target='_blank'
+        rel='noreferrer'
+        aria-label={`${title} at ${company}`}
+      >
+        <span
+          class='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block'
+        ></span>
+        <span class='text-xl'>
+          {title} ·{' '}
+          <span class='inline-block'>
+            {company}
+          </span>
+        </span>
+        <LinkIcon class='size-5 hidden group-hover:block transition duration-400 ml-2' />
+      </a>
+    </h3>
+    <time class='text-sm text-slate-400/90'>{startDate} - {endDate}</time>
+    <p class='text-sm text-slate-400/90'>{location}</p>
+    <div class='relative flex flex-col gap-2 pb-4 text-gray-300 md:col-span-3'>
+      <p
+        class='mt-2.5 text-sm leading-normal text-slate-300/80'
+        style={{ textWrap: 'pretty' }}
+      >
+        {description}
+      </p>
+      <div class='flex flex-wrap gap-2'>
+        {
+          skills.map((skill) => (
+            <span class='bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-200 rounded-full'>
+              {skill}
+            </span>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</div>

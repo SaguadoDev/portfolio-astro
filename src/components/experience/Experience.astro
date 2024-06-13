@@ -1,0 +1,40 @@
+---
+import ExperienceItem from './ExperienceItem.astro'
+
+const EXPERIENCE = [
+  {
+    startDate: 'Abril 2024',
+    endDate: 'Actualidad',
+    title: 'Frontend Developer',
+    location: 'Madrid, España',
+    company: 'Kairós DS',
+    description:
+      'Trabajo en prácticas en Kairós DS, una consultora informática  en la que me desempeño como Frontend Developer, desarrollando aplicaciones web con React y Angular, y utilizando tecnologías como Git y Docker.',
+    skills: ['Git', 'Docker'],
+    imageName: 'kairosds',
+    link: 'https://www.kairosds.com/'
+  },
+  {
+    startDate: 'Septiembre 2022',
+    endDate: 'Junio 2024',
+    title: 'Desarrollo de Aplicaciones Web',
+    location: 'Toledo, España',
+    company: 'IES Azarquiel',
+    description:
+      'Estudié Desarrollo de Aplicaciones Web en el IES Azarquiel en Toledo, donde aprendí a desarrollar aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, React, Java, entre otras.',
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Java', 'SpringBoot'],
+    imageName: 'iesazarquiel',
+    link: 'http://www.ies-azarquiel.es/'
+  }
+]
+---
+
+<ol class='relative lg:mt-16 ml-3'>
+  {
+    EXPERIENCE.map((experience) => (
+      <li class='p-2'>
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
