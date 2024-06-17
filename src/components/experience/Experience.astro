@@ -48,10 +48,10 @@ const EXPERIENCE = [
 ]
 ---
 
-<ol class='relative lg:mt-16 ml-3'>
+<ol class='relative ml-3 flex flex-col gap-10'>
   {
     EXPERIENCE.map((experience) => (
-      <li class='p-2'>
+      <li class='p-2 h-full'>
         <ExperienceItem {...experience} />
       </li>
     ))

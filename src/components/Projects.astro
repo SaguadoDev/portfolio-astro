@@ -27,8 +27,9 @@ const PROJECTS = [
 <div class='flex flex-col gap-y-16 mx-5 sm:mx-0'>
   {
     PROJECTS.map(({ image, title, description, skills, link, github }) => (
-      <article class='flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0'>
-        <div class='w-full md:w-1/2'>
+      <article class='relative flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0'>
+        <span class='ml-6 absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-700/30 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg' />
+        <div class='w-full md:w-1/2 z-10'>
           <div class='relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50'>
             <a href={link} class='group'>
               <img
@@ -40,24 +41,26 @@ const PROJECTS = [
           </div>
         </div>
 
-        <div class='w-full md:w-1/2 md:max-w-lg'>
+        <div class='w-full md:w-1/2 md:max-w-lg z-10'>
           <a href={link} class='group'>
             <div class='flex items-center justify-start gap-2'>
-              <h3 class='text-2xl font-bold text-gray-100 group-hover:text-teal-200 transition duration-400'>
+              <h3 class='text-2xl font-bold transition duration-400 text-white group-hover:text-teal-200'>
                 {title}
+                <LinkIcon />
               </h3>
-              <LinkIcon class='size-6 hidden group-hover:block transition duration-400 group-hover:text-teal-200' />
             </div>
             <div class='mt-2 text-gray-400 text-pretty'>{description}</div>
           </a>
 
-          <div class='flex flex-wrap gap-2 mt-3'>
-            {skills.map((skill) => (
-              <span class='bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-200 rounded-full'>
-                {skill}
-              </span>
-            ))}
-          </div>
+          <a href={link} class='group'>
+            <div class='flex flex-wrap gap-2 mt-3'>
+              {skills.map((skill) => (
+                <span class='bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-200 rounded-full'>
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </a>
 
           <footer class='flex items-end justify-start mt-4 gap-x-4'>
             {github && (
