@@ -1,0 +1,31 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import SectionContainer from '@/components/SectionContainer.astro'
+import ArrowRigth from '@/components/icons/ArrowRigth.astro'
+---
+
+<Layout title='Projects' description='Proyectos de Sergio'>
+  <main class='px-4'>
+    <SectionContainer id='projects' class='my-10 md:my-24'>
+      <section>
+        <div class='group'>
+          <a
+            href='/'
+            class='font-bold transition duration-400 text-white group-hover:text-teal-200'
+          >
+            <span style='display: inline-block; transform: scaleX(-1);'>
+              <ArrowRigth />
+            </span>
+            Sergio Aguado
+          </a>
+        </div>
+        <h1 class='text-5xl
+              font-bold
+              text-white'>
+          Todos los Proyectos
+        </h1>
+        <!-- Bento grid layout for projects -->
+      </section>
+    </SectionContainer>
+  </main>
+</Layout>

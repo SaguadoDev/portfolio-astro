@@ -1,4 +1,5 @@
 ---
+import ArrowRigth from './icons/ArrowRigth.astro'
 import GitHub from './icons/GitHub.astro'
 import LinkIcon from './icons/LinkIcon.astro'
 
@@ -81,4 +82,12 @@ const PROJECTS = [
       </article>
     ))
   }
+  <div class='group'>
+    <a
+      href='/projects'
+      class='font-bold transition duration-400 text-white group-hover:text-teal-200'
+    >
+      Ver todos los proyectos <ArrowRigth />
+    </a>
+  </div>
 </div>
