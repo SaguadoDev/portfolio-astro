@@ -5,6 +5,15 @@ import LinkIcon from './icons/LinkIcon.astro'
 
 const PROJECTS = [
   {
+    title: 'Sistema de inspección de neumáticos',
+    description:
+      'Aplicación web que permite a los usuarios subir imágenes de neumáticos para ser inspeccionados por un modelo de Machine Learning propio.',
+    link: '/projects/Sistema de inspección de neumáticos.webm',
+    github: '',
+    image: '/projects/Sistema de inspección de neumáticos.webp',
+    skills: ['Python', 'TensorFlow', 'Keras', 'Flask', 'Astro', 'React', 'Tailwind CSS']
+  },
+  {
     title: 'Disney+ Clone',
     description:
       'Clon de la interfaz gráfica de la plataforma Disney+ hecho con React y Tailwind CSS. Incluye sistema de búsqueda con TMDb API con la que se obtiene los datos e imagenes de las películas.',
@@ -12,15 +21,6 @@ const PROJECTS = [
     github: 'https://github.com/McFrostyS/disney-clone',
     image: '/projects/disney-clone.webp',
     skills: ['React', 'Tailwind CSS']
-  },
-  {
-    title: 'Spotify Astro',
-    description:
-      'Clon del reproductor de música Spotify con Astro, React, Svelte y Tailwind CSS. Animaciones, reproducción de canciones, listas de reproducción y control del nivel de volumen.',
-    link: 'https://spotify-astro-mcfrostys.vercel.app/',
-    github: 'https://github.com/McFrostyS/spotify-astro',
-    image: '/projects/spotify-astro.webp',
-    skills: ['Astro', 'React', 'Svelte', 'TypeScript', 'Tailwind CSS']
   }
 ]
 ---
@@ -32,18 +32,14 @@ const PROJECTS = [
         <span class='ml-6 absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-700/30 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg' />
         <div class='w-full md:w-1/2 z-10'>
           <div class='relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50'>
-            <a href={link} class='group'>
-              <img
-                alt={title}
-                class='object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105'
-                src={image}
-              />
+            <a href={link} class='group' role='link' target='_blank' rel='noreferrer'>
+              <img src={image} alt={title} class='max-w-full h-auto' />
             </a>
           </div>
         </div>
 
         <div class='w-full md:w-1/2 md:max-w-lg z-10'>
-          <a href={link} class='group'>
+          <a href={link} class='group' role='link' target='_blank' rel='noreferrer'>
             <div class='flex items-center justify-start gap-2'>
               <h3 class='text-2xl font-bold transition duration-400 text-white group-hover:text-teal-200'>
                 {title}
@@ -53,7 +49,7 @@ const PROJECTS = [
             <div class='mt-2 text-gray-400 text-pretty'>{description}</div>
           </a>
 
-          <a href={link} class='group'>
+          <a href={link} class='group' role='link' target='_blank' rel='noreferrer'>
             <div class='flex flex-wrap gap-2 mt-3'>
               {skills.map((skill) => (
                 <span class='bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-200 rounded-full'>
