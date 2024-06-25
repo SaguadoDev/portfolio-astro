@@ -19,7 +19,7 @@ const { image, title, description, skills, link, github } = Astro.props
     <div
       class='relative flex flex-col items-center gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl'
     >
-      <a href={link} class='group'>
+      <a href={link} class='group' role='link' target='_blank' rel='noreferrer'>
         <img
           alt={title}
           class='object-cover object-top w-full transition duration-500 h-full'
@@ -30,7 +30,7 @@ const { image, title, description, skills, link, github } = Astro.props
   </div>
 
   <div class='w-full z-10'>
-    <a href={link} class='group'>
+    <a href={link} class='group' role='link' target='_blank' rel='noreferrer'>
       <div class='flex items-center justify-start gap-2'>
         <h3
           class='text-2xl font-bold transition duration-400 text-white group-hover:text-teal-200'
@@ -44,7 +44,7 @@ const { image, title, description, skills, link, github } = Astro.props
       </div>
     </a>
 
-    <a href={link} class='group'>
+    <a href={link} class='group' role='link' target='_blank' rel='noreferrer'>
       <div class='flex flex-wrap gap-2 mt-3'>
         {
           skills.map((skill) => (
