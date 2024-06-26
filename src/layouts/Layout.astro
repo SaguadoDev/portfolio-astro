@@ -9,6 +9,11 @@ interface Props {
 }
 
 const { description, title } = Astro.props
+const url = 'https://mcfrostys.github.io/portfolio'
+const image =
+  'https://raw.githubusercontent.com/McFrostyS/portfolio-astro/main/public/sergio-aguado-portfolio.webp'
+const keywords =
+  'Developer, FullStack, FullStack Developer, Frontend, Frontend Developer, Backend, Backend Developer, JavaScript, React, LitElement, Lit, CSS, HTML, Tailwind, Astro, Python, Java, TensorFlow, Keras, Flask, Spring Boot, Web Components, BLoC, Jest, Cypress, Git, Docker, SQL, PL/SQL, AWS, Bootstrap, Oracle, MySQL, TypeScript'
 ---
 
 <!doctype html>
@@ -19,6 +24,33 @@ const { description, title } = Astro.props
     <meta name='viewport' content='width=device-width' />
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <meta name='generator' content={Astro.generator} />
+    <!-- Twitter -->
+    <meta name='twitter:card' content='summary_large_image' />
+    <meta name='twitter:site' content='@saguadoDev' />
+    <meta name='twitter:creator' content='@saguadoDev' />
+    <meta name='twitter:title' content={title} />
+    <meta name='twitter:description' content={description} />
+    <meta name='twitter:image' content={image} />
+    <meta property='twitter:url' content={url} />
+    <!-- Facebook -->
+    <meta property='og:title' content={title} />
+    <meta property='og:url' content={url} />
+    <meta property='og:description' content={description} />
+    <meta property='og:image' content={image} />
+    <meta property='og:type' content='website' />
+    <meta property='og:site_name' content={title} />
+    <meta property='og:locale' content='es_ES' />
+    <meta property='og:locale:alternate' content='en_US' />
+    <!-- Google -->
+    <meta itemprop='name' content={title} />
+    <meta itemprop='description' content={description} />
+    <meta itemprop='image' content={image} />
+    <meta name='author' content='Sergio Aguado' />
+    <meta name='keywords' content={keywords} />
+    <meta name='robots' content='index, follow' />
+    <meta name='theme-color' content='#5eead4' />
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='apple-mobile-web-app-title' content={title} />
     <title>{title}</title>
     <ViewTransitions />
   </head>
