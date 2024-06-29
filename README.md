@@ -1,6 +1,6 @@
 # 🚀 Sergio Aguado Portfolio
 
-My personal website, built with Astro, React, Tailwind CSS, and deployed to Vercel. This website showcases my experience, skills, projects, and blog where I share insights into web development, software engineering, and whatever else I'm thinking about!
+My personal website, built with Astro, React, Tailwind CSS, and deployed to Vercel. This website showcases my experience, skills, and projects!
 
 ![website image example](/public/sergio-aguado-portfolio.webp)
 
