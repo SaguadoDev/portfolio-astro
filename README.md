@@ -5,6 +5,7 @@ My personal website, built with Astro, React, Tailwind CSS, and deployed to Verc
 ![website image example](/public/sergio-aguado-portfolio.webp)
 
 ## 🛠️ Main Technologies
+
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/></a>
 <a href="https://astro.build/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/bestofjs/bestofjs/012e0b1acb66024b07c16516d2bb8908127626ed/apps/bestofjs-nextjs/public/logos/astro.dark.svg" alt="Astro" width="40" height="40"/></a>
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/></a>
@@ -42,7 +43,7 @@ $ npm install
 $ npm run dev
 ```
 
-> *Open [http://localhost:4321](http://localhost:4321) with your browser to see the result.*
+> _Open [http://localhost:4321](http://localhost:4321) with your browser to see the result._
 
 ## 💡 Future Improvements
 
@@ -51,7 +52,6 @@ $ npm run dev
 - **Blog:** Implement features a blog section where I will share articles.
 - **Dark/Light Mode Switch:** Provide the ability to switch between light and dark modes for a personalized browsing experience.
 
-
 ## 🤝 Contributions
 
-Thank you for exploring my website! If you find the structure or features useful, feel free to use the template for your project. Contributions are welcome! if you have ideas, corrections, or improvements, open an issue or send a pull request. Your collaboration is valued and appreciated! 🚀
+Thank you for exploring my website! If you find the structure or features useful, feel free to use the template for your project. Contributions are welcome! if you have ideas, corrections, or improvements, open an issue or send a pull request. Your collaboration is valued and appreciated!
