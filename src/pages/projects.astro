@@ -6,6 +6,24 @@ import ProjectsCard from '@/components/ProjectsCard.astro'
 
 const PROJECTS = [
   {
+    title: 'Sistema de inspección de neumáticos',
+    description:
+      'Aplicación web que permite a los usuarios subir imágenes de neumáticos para ser inspeccionados por un modelo de Machine Learning propio.',
+    link: '/projects/sistema-de-inspección-de-neumáticos.webm',
+    github: '',
+    image: '/projects/sistema-de-inspección-de-neumáticos.webp',
+    skills: ['Python', 'TensorFlow', 'Keras', 'Flask', 'Astro', 'React', 'Tailwind CSS']
+  },
+  {
+    title: 'Disney+ Clone',
+    description:
+      'Clon de la interfaz gráfica de la plataforma Disney+ hecho con React y Tailwind CSS. Incluye sistema de búsqueda con TMDb API con la que se obtiene los datos e imagenes de las películas.',
+    link: 'https://disney-clone-mcfrostys.vercel.app/',
+    github: 'https://github.com/McFrostyS/disney-clone',
+    image: '/projects/disney-clone.webp',
+    skills: ['React', 'Tailwind CSS']
+  },
+  {
     title: 'Spotify Astro',
     description:
       'Clon del reproductor de música Spotify con Astro, React, Svelte y Tailwind CSS. Animaciones, reproducción de canciones, listas de reproducción y control del nivel de volumen.',
@@ -62,8 +80,8 @@ const PROJECTS = [
           </div>
           <h1 class='text-5xl font-bold text-white mb-4'>Proyectos</h1>
           <p class='text-white'>
-            Aquí encontrarás todos los proyectos en los que he trabajado a lo largo de mi
-            carrera profesional y personal como desarrollador.
+            Aquí se encuentran todos los proyectos en los que he trabajado a lo largo de
+            mi trayectoria como desarrollador.
           </p>
         </header>
         {
@@ -94,5 +112,9 @@ const PROJECTS = [
     .project-card:nth-child(3) {
       padding-top: 0;
     }
+  }
+
+  .project-card {
+    width: calc(100% - 15px);
   }
 </style>
