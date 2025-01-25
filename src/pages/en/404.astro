@@ -1,0 +1,26 @@
+---
+import SectionContainer from '@/components/SectionContainer.astro'
+import ArrowRigth from '@/components/icons/ArrowRigth.astro'
+import Layout from '@/layouts/Layout.astro'
+---
+
+<Layout>
+  <main class='z-10 min-h-screen flex justify-center items-center'>
+    <SectionContainer id='404'>
+      <h1 class='text-5xl font-bold text-center text-white'>404</h1>
+      <p class='text-lg md:text-xl text-center'>Página no encontrada</p>
+
+      <div class='group flex justify-center mt-4'>
+        <a
+          href='/'
+          class='font-bold transition duration-400 text-white group-hover:text-teal-200'
+        >
+          <span style='display: inline-block; transform: scaleX(-1);'>
+            <ArrowRigth />
+          </span>
+          Volver al inicio
+        </a>
+      </div>
+    </SectionContainer>
+  </main>
+</Layout>
