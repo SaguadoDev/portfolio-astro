@@ -50,7 +50,6 @@ $ npm run dev
 - **Skeleton Loaders:** Provide the enhances user experience with skeleton loaders for smooth content loading.
 - **Multilingual Support:** Available in Spanish and English.
 - **Blog:** Implement features a blog section where I will share articles.
-- **Dark/Light Mode Switch:** Provide the ability to switch between light and dark modes for a personalized browsing experience.
 
 ## 🤝 Contributions
 
