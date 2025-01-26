@@ -1,0 +1,20 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n'
+import { useTranslations } from '../i18n/utils'
+import { languageList } from '../i18n/ui'
+const currentLang = Astro.currentLocale || 'es'
+
+const translateLabels = useTranslations(currentLang as keyof typeof languageList)
+---
+
+<div class='language-switcher'>
+  {
+    Object.entries(languageList).map(([key, label]: [string, string]) => {
+      return (
+        <li>
+          <a href={`/${key}`}>{label}</a>
+        </li>
+      )
+    })
+  }
+</div>
