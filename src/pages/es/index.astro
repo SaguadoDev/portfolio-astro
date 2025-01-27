@@ -6,6 +6,12 @@ import Projects from '@/components/Projects.astro'
 import SectionContainer from '@/components/SectionContainer.astro'
 import Hero from '@/components/Hero.astro'
 import LanguageSwitcher from '@/components/LanguageSwitcher.astro'
+
+import { useTranslations } from '@/i18n/utils'
+import { languageList } from '@/i18n/ui'
+const currentLang = Astro.currentLocale || 'es'
+
+const translateLabels = useTranslations(currentLang as keyof typeof languageList)
 ---
 
 <Layout>
@@ -19,7 +25,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher.astro'
         <h2
           class='title flex items-center mb-6 text-3xl font-semibold gap-x-3 text-white ml-5 sm:ml-0'
         >
-          Experiencia
+          {translateLabels('experience').title}
         </h2>
         <Experience />
       </SectionContainer>
@@ -28,7 +34,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher.astro'
         <h2
           class='flex items-center mb-6 text-3xl font-semibold gap-x-3 text-white ml-5 sm:ml-0'
         >
-          Proyectos
+          {translateLabels('projects').title}
         </h2>
         <Projects />
       </SectionContainer>

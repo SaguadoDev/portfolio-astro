@@ -1,56 +1,29 @@
 ---
 import ExperienceItem from './ExperienceItem.astro'
 
-const EXPERIENCE = [
-  {
-    startDate: 'Abril 2024',
-    endDate: 'Junio 2024',
-    title: 'Frontend Developer',
-    location: 'Madrid, España',
-    company: 'Kairós DS',
-    description:
-      'Creación de WebComponents reutilizables utilizando JavaScript y Lit, implementando patrones de diseño BLoC para asegurar una arquitectura robusta y mantenible.',
-    skills: [
-      'JavaScript',
-      'Lit',
-      'WebComponents',
-      'BLoC',
-      'Jest',
-      'Cypress',
-      'Git',
-      'Docker'
-    ],
-    imageName: 'kairosds',
-    link: 'https://www.kairosds.com/'
-  },
-  {
-    startDate: 'Septiembre 2022',
-    endDate: 'Junio 2024',
-    title: 'Desarrollo de Aplicaciones Web',
-    location: 'Toledo, España',
-    company: 'IES Azarquiel',
-    description:
-      'Estudié el grado superior de Desarrollo de Aplicaciones Web en el IES Azarquiel en Toledo, donde aprendí a desarrollar aplicaciones web full stack.',
-    skills: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React',
-      'Java',
-      'SpringBoot',
-      'SQL',
-      'PL/SQL',
-      'AWS'
-    ],
-    imageName: 'iesazarquiel',
-    link: 'http://www.ies-azarquiel.es/'
-  }
-]
+import { useTranslations } from '@/i18n/utils'
+import { languageList } from '@/i18n/ui'
+const currentLang = Astro.currentLocale || 'es'
+
+const translateLabels = useTranslations(currentLang as keyof typeof languageList)
+interface Experience {
+  title: string
+  company: string
+  description: string
+  link?: string
+  startDate: string
+  endDate: string
+  location: string
+  skills: string[]
+  imageName: string
+}
+
+const { cards }: { cards: Experience[] } = translateLabels('experience')
 ---
 
 <ol class='relative ml-3 flex flex-col gap-10'>
   {
-    EXPERIENCE.map((experience) => (
+    cards.map((experience) => (
       <li class='p-2 h-full'>
         <ExperienceItem {...experience} />
       </li>
