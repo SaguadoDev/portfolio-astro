@@ -7,12 +7,16 @@ const currentLang = Astro.currentLocale || 'es'
 const translateLabels = useTranslations(currentLang as keyof typeof languageList)
 ---
 
-<div class='language-switcher'>
+<div class='flex justify-end'>
   {
     Object.entries(languageList).map(([key, label]: [string, string]) => {
+      const flagSrc = key === 'es' ? '/public/spain.webp' : '/public/usa.webp'
       return (
-        <li>
-          <a href={`/${key}`}>{label}</a>
+        <li class='list-none p-2 flex items-center '>
+          <a href={`/${key}`} class='flex items-center space-x-1'>
+            <img src={flagSrc} alt={`${label} flag`} width='25' height='20' class='m-2' />
+            {label}
+          </a>
         </li>
       )
     })
