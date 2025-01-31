@@ -25,7 +25,7 @@ const translateLabels = useTranslations(currentLang as keyof typeof languageList
         <h2
           class='title flex items-center mb-6 text-3xl font-semibold gap-x-3 text-white ml-5 sm:ml-0'
         >
-          {translateLabels('experience').title}
+          {translateLabels('experience.title')}
         </h2>
         <Experience />
       </SectionContainer>
@@ -34,7 +34,7 @@ const translateLabels = useTranslations(currentLang as keyof typeof languageList
         <h2
           class='flex items-center mb-6 text-3xl font-semibold gap-x-3 text-white ml-5 sm:ml-0'
         >
-          {translateLabels('projects').title}
+          {translateLabels('projects.title')}
         </h2>
         <Projects />
       </SectionContainer>
@@ -43,7 +43,7 @@ const translateLabels = useTranslations(currentLang as keyof typeof languageList
         <h2
           class='flex items-center mb-6 text-3xl font-semibold gap-x-8 text-white ml-5 sm:ml-0'
         >
-          Sobre mí
+          {translateLabels('about.title')}
         </h2>
         <AboutMe />
       </SectionContainer>

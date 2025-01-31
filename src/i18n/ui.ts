@@ -159,6 +159,40 @@ export const labels = {
         }
       ],
       link: 'Sergio Aguado'
+    },
+    about: {
+      title: 'Sobre mí',
+      paragraph1: {
+        content:
+          'Soy Sergio, un apasionado Desarrollador Full Stack, especializado en dar vida a ideas en el vasto mundo del desarrollo web. Actualmente estoy recien graduado del grado superior de ',
+        studies: 'Desarrollo de Aplicaciones Web (DAW)',
+        content2: ', y estoy deseando hacer la ',
+        future: 'especialización en Inteligencia Artificial y Big Data.'
+      },
+      paragraph2: {
+        quote: `“Technology is moving at such a pace that if you stand still, you'll miss everything that's happening.”`,
+        content:
+          ' Este es el lema que sigo como filosofía en el ámbito tecnológico, dicho lema me ayuda siempre a ',
+        learning: 'seguir adelante y estar en constante aprendizaje',
+        content2: ', manteniendo así viva mi ',
+        ambition: 'ambición',
+        content3: ' de crecer como desarrollador.'
+      },
+      paragraph3: {
+        content: 'En mi tiempo libre disfruto haciendo ',
+        plans: 'planes con familia, pareja y amigos',
+        content2: ', viendo los ',
+        sports: 'deportes',
+        content3: ' que me gustan, visualizando ',
+        videos: 'videos tecnológicos',
+        content4: ' y escuchando y alimentando mi pasión por la ',
+        music: 'música',
+        content5: ', entre otras cosas.'
+      },
+      paragraph4: {
+        content:
+          'Aquí hay algunas tecnologías con las que he estado trabajando recientemente:'
+      }
     }
   },
 
@@ -317,6 +351,39 @@ export const labels = {
         }
       ],
       link: 'Sergio Aguado'
+    },
+    about: {
+      title: 'About me',
+      paragraph1: {
+        content:
+          'I am Sergio, a passionate Full Stack Developer, specialized in bringing ideas to life in the vast world of web development. I am currently a recent graduate of the higher degree of ',
+        studies: 'Web Applications Development (DAW)',
+        content2: ', and I am looking forward to specializing in ',
+        future: 'Artificial Intelligence and Big Data.'
+      },
+      paragraph2: {
+        quote: `“Technology is moving at such a pace that if you stand still, you'll miss everything that's happening.”`,
+        content:
+          ' This is the motto I follow as a philosophy in the technological field, this motto always helps me to ',
+        learning: 'move forward and be in constant learning',
+        content2: ', thus keeping alive my ',
+        ambition: 'ambition',
+        content3: ' to grow as a developer.'
+      },
+      paragraph3: {
+        content: 'In my free time I enjoy making ',
+        plans: 'plans with family, partner and friends',
+        content2: ', watching the ',
+        sports: 'sports',
+        content3: ' I like, watching ',
+        videos: 'technology videos',
+        content4: ' and listening to and feeding my passion for ',
+        music: 'music',
+        content5: ', among other things.'
+      },
+      paragraph4: {
+        content: 'Here are some technologies I have been working with recently:'
+      }
     }
   }
 }
