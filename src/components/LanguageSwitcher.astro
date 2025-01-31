@@ -10,7 +10,7 @@ const translateLabels = useTranslations(currentLang as keyof typeof languageList
 <div class='flex justify-end'>
   {
     Object.entries(languageList).map(([key, label]: [string, string]) => {
-      const flagSrc = key === 'es' ? '/public/spain.webp' : '/public/usa.webp'
+      const flagSrc = key === 'es' ? '/spain.webp' : '/usa.webp'
       return (
         <li class='list-none p-2 flex items-center '>
           <a href={`/${key}`} class='flex items-center space-x-1'>
