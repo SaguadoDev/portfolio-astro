@@ -3,6 +3,13 @@ const personalImageAlt = 'Sergio Aguado'
 import CvPill from '@/components/pills/CvPill.astro'
 import ConnectPill from '@/components/pills/ConnectPill.astro'
 import EmailPill from '@/components/pills/EmailPill.astro'
+
+import { useTranslations } from '@/i18n/utils'
+import { languageList } from '@/i18n/ui'
+
+const currentLang = Astro.currentLocale || 'es'
+
+const translateLabels = useTranslations(currentLang as keyof typeof languageList)
 ---
 
 <div class='max-w-6xl mx-auto'>
@@ -14,13 +21,12 @@ import EmailPill from '@/components/pills/EmailPill.astro'
     />
     <div class='text-center sm:text-left'>
       <h1 class='text-3xl font-bold tracking-tight sm:text-4xl text-white'>
-        Sergio Aguado Garrido
+        {translateLabels('hero.fullName')}
       </h1>
       <p
         class='mt-3 text-xl [&>strong]:text-white [&>strong]:font-semibold text-gray-300'
       >
-        Desarrollador Frontend impulsado por diseñar y desarrollar experiencias digitales
-        innovadoras y de alta calidad.
+        {translateLabels('hero.description')}
       </p>
       <nav class='flex flex-wrap gap-4 mt-3 justify-center sm:justify-start'>
         <ConnectPill />

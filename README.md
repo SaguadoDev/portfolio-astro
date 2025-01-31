@@ -27,7 +27,7 @@ Before getting started, make sure you have [Git](https://git-scm.com) and [Node.
 
 ```bash
 # Clone this project
-$ git clone https://github.com/McFrostyS/portfolio-astro.git
+$ git clone https://github.com/SaguadoDev/portfolio-astro.git
 
 # Access the project folder
 $ cd portfolio-astro
