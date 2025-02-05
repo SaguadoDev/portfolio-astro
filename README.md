@@ -48,7 +48,6 @@ $ npm run dev
 ## 💡 Future Improvements
 
 - **Skeleton Loaders:** Provide the enhances user experience with skeleton loaders for smooth content loading.
-- **Multilingual Support:** Available in Spanish and English.
 - **Blog:** Implement features a blog section where I will share articles.
 
 ## 🤝 Contributions
