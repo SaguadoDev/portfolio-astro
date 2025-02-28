@@ -1,5 +1,12 @@
 ---
 import MailIcon from '@/components/icons/Mail.astro'
+
+import { useTranslations } from '@/i18n/utils'
+import { languageList } from '@/i18n/ui'
+
+const currentLang = Astro.currentLocale || 'es'
+
+const translateLabels = useTranslations(currentLang as keyof typeof languageList)
 ---
 
 <a
@@ -12,5 +19,5 @@ import MailIcon from '@/components/icons/Mail.astro'
   hover:bg-slate-400/20 hover:scale-105'
 >
   <MailIcon class='size-4' />
-  Mensaje
+  {translateLabels('hero.pills.email')}
 </a>

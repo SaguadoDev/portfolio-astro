@@ -8,7 +8,12 @@ export const labels = {
     hero: {
       fullName: 'Sergio Aguado Garrido',
       description:
-        'Desarrollador de software impulsado por diseñar y desarrollar experiencias digitales innovadoras y de alta calidad.'
+        'Desarrollador de software impulsado por diseñar y desarrollar experiencias digitales innovadoras y de alta calidad.',
+      pills: {
+        connect: 'Conectar',
+        email: 'Mensaje',
+        resume: 'Currículum'
+      }
     },
     experience: {
       title: 'Experiencia',
@@ -200,7 +205,12 @@ export const labels = {
     hero: {
       fullName: 'Sergio Aguado Garrido',
       description:
-        'Software Developer driven by designing and developing innovative and high quality digital experiences.'
+        'Software Developer driven by designing and developing innovative and high quality digital experiences.',
+      pills: {
+        connect: 'Connect',
+        email: 'Message',
+        resume: 'Resume'
+      }
     },
     experience: {
       title: 'Experience',

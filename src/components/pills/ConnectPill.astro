@@ -1,5 +1,12 @@
 ---
 import ConnectIcon from '../icons/Connect.astro'
+
+import { useTranslations } from '@/i18n/utils'
+import { languageList } from '@/i18n/ui'
+
+const currentLang = Astro.currentLocale || 'es'
+
+const translateLabels = useTranslations(currentLang as keyof typeof languageList)
 ---
 
 <a
@@ -11,5 +18,5 @@ import ConnectIcon from '../icons/Connect.astro'
   rounded-full text-black bg-teal-300 text-md hover:bg-teal-600 border-teal-300 focus-visible:bg-teal-600 hover:scale-105'
 >
   <ConnectIcon class='size-4' />
-  Conectar
+  {translateLabels('hero.pills.connect')}
 </a>
