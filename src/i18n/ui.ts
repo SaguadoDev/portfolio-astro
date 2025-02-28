@@ -1,14 +1,14 @@
 export const languageList = {
   es: 'Español',
   en: 'English'
-}
+};
 
 export const labels = {
   es: {
     hero: {
       fullName: 'Sergio Aguado Garrido',
       description:
-        'Desarrollador Frontend impulsado por diseñar y desarrollar experiencias digitales innovadoras y de alta calidad.'
+        'Desarrollador de software impulsado por diseñar y desarrollar experiencias digitales innovadoras y de alta calidad.'
     },
     experience: {
       title: 'Experiencia',
@@ -164,7 +164,7 @@ export const labels = {
       title: 'Sobre mí',
       paragraph1: {
         content:
-          'Soy Sergio, un apasionado Desarrollador Full Stack, especializado en dar vida a ideas en el vasto mundo del desarrollo web. Actualmente estoy recien graduado del grado superior de ',
+          'Soy Sergio, un apasionado Desarrollador de software, especializado en dar vida a ideas en el vasto mundo del desarrollo web. Actualmente estoy recien graduado del grado superior de ',
         studies: 'Desarrollo de Aplicaciones Web (DAW)',
         content2: ', y estoy deseando hacer la ',
         future: 'especialización en Inteligencia Artificial y Big Data.'
@@ -200,7 +200,7 @@ export const labels = {
     hero: {
       fullName: 'Sergio Aguado Garrido',
       description:
-        'Frontend Developer driven by designing and developing innovative and high quality digital experiences.'
+        'Software Developer driven by designing and developing innovative and high quality digital experiences.'
     },
     experience: {
       title: 'Experience',
@@ -356,7 +356,7 @@ export const labels = {
       title: 'About me',
       paragraph1: {
         content:
-          'I am Sergio, a passionate Full Stack Developer, specialized in bringing ideas to life in the vast world of web development. I am currently a recent graduate of the higher degree of ',
+          'I am Sergio, a passionate Software Developer, specialized in bringing ideas to life in the vast world of web development. I am currently a recent graduate of the higher degree of ',
         studies: 'Web Applications Development (DAW)',
         content2: ', and I am looking forward to specializing in ',
         future: 'Artificial Intelligence and Big Data.'
@@ -386,4 +386,4 @@ export const labels = {
       }
     }
   }
-}
+};
