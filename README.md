@@ -52,4 +52,4 @@ $ npm run dev
 
 ## 🤝 Contributions
 
-Thank you for exploring my website! If you find the structure or features useful, feel free to use the template for your project. Contributions are welcome! if you have ideas, corrections, or improvements, open an issue or send a pull request. Your collaboration is valued and appreciated!
+Thank you for exploring my website! If you find the structure or features useful, feel free to use the template for your project.
