@@ -25,10 +25,10 @@ export const labels = {
           location: 'Madrid, España',
           company: 'Kairós DS',
           description:
-            'Creación de WebComponents reutilizables utilizando JavaScript y Lit, implementando patrones de diseño BLoC para asegurar una arquitectura robusta y mantenible.',
+            'Creación de WebComponents reutilizables utilizando JavaScript y LitElement, implementando patrones de diseño BLoC para asegurar una arquitectura robusta y mantenible.',
           skills: [
             'JavaScript',
-            'Lit',
+            'LitElement',
             'WebComponents',
             'BLoC',
             'Jest',
