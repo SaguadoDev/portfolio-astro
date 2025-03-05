@@ -23,7 +23,7 @@ My personal website, built with Astro, React, Tailwind CSS, and deployed to Verc
 
 Before getting started, make sure you have [Git](https://git-scm.com) and [Node.js](https://nodejs.org) v18 or higher installed.
 
-## 🚀 How to Run Locally?
+## 🤖 How to Run Locally?
 
 ```bash
 # Clone this project
