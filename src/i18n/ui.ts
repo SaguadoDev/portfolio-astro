@@ -19,6 +19,18 @@ export const labels = {
       title: 'Experiencia',
       cards: [
         {
+          startDate: 'Marzo 2025',
+          endDate: 'Actualidad',
+          title: 'Desarrollador de Software',
+          location: 'Toledo, España',
+          company: 'Modumaq',
+          description:
+            'Desarrollo de middleware en automatización industrial con las tecnologías .NET y C# como lenguaje de programación principal.',
+          skills: ['C#', 'ASP.NET Core', 'ZPL'],
+          imageName: 'modumaq',
+          link: 'https://modumaq.com/'
+        },
+        {
           startDate: 'Abril 2024',
           endDate: 'Junio 2024',
           title: 'Frontend Developer',
