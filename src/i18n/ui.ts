@@ -23,11 +23,11 @@ export const labels = {
           endDate: 'Actualidad',
           title: 'Desarrollador de Software',
           location: 'Toledo, España',
-          company: 'Modumaq',
+          company: 'SCIO Automation Spain',
           description:
             'Desarrollo de middleware en automatización industrial con las tecnologías .NET y C# como lenguaje de programación principal.',
-          skills: ['C#', 'ASP.NET Core', 'ZPL'],
-          imageName: 'modumaq',
+          skills: ['C#', 'ASP.NET Core', 'Blazor', 'SQL Server', 'ZPL', 'Azure'],
+          imageName: 'scio-white',
           link: 'https://modumaq.com/'
         },
         {
@@ -227,6 +227,18 @@ export const labels = {
     experience: {
       title: 'Experience',
       cards: [
+        {
+          startDate: 'March 2025',
+          endDate: 'Present',
+          title: 'Software Developer',
+          location: 'Toledo, Spain',
+          company: 'SCIO Automation Spain',
+          description:
+            'Development of middleware in industrial automation with .NET and C# as the main programming language.',
+          skills: ['C#', 'ASP.NET Core', 'Blazor', 'SQL Server', 'ZPL', 'Azure'],
+          imageName: 'scio-white',
+          link: 'https://modumaq.com/'
+        },
         {
           startDate: 'April 2024',
           endDate: 'June 2024',
