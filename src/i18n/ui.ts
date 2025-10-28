@@ -99,7 +99,7 @@ export const labels = {
           title: 'Disney+ Clone',
           description:
             'Clon de la interfaz gráfica de la plataforma Disney+ hecho con React y Tailwind CSS. Incluye sistema de búsqueda con TMDb API con la que se obtiene los datos e imagenes de las películas.',
-          link: 'https://disney-clone-saguadodev.vercel.app/',
+          link: 'https://disney-clone-mcfrostys.vercel.app/',
           github: 'https://github.com/saguadodev/disney-clone',
           image: '/projects/disney-clone.webp',
           skills: ['React', 'Tailwind CSS']
@@ -133,7 +133,7 @@ export const labels = {
           title: 'Disney+ Clone',
           description:
             'Clon de la interfaz gráfica de la plataforma Disney+ hecho con React y Tailwind CSS. Incluye sistema de búsqueda con TMDb API con la que se obtiene los datos e imagenes de las películas.',
-          link: 'https://disney-clone-saguadodev.vercel.app/',
+          link: 'https://disney-clone-mcfrostys.vercel.app/',
           github: 'https://github.com/saguadodev/disney-clone',
           image: '/projects/disney-clone.webp',
           skills: ['React', 'Tailwind CSS']
@@ -142,7 +142,7 @@ export const labels = {
           title: 'Spotify Astro',
           description:
             'Clon del reproductor de música Spotify con Astro, React, Svelte y Tailwind CSS. Animaciones, reproducción de canciones, listas de reproducción y control del nivel de volumen.',
-          link: 'https://spotify-astro-saguadodev.vercel.app/',
+          link: 'https://spotify-astro-mcfrostys.vercel.app/',
           github: 'https://github.com/saguadodev/spotify-astro',
           image: '/projects/spotify-astro.webp',
           skills: ['Astro', 'React', 'Svelte', 'TypeScript', 'Tailwind CSS']
@@ -308,7 +308,7 @@ export const labels = {
           title: 'Disney+ Clone',
           description:
             'Disney+ platform graphical interface clone made with React and Tailwind CSS. It includes a search system with TMDb API that retrieves movie data and images.',
-          link: 'https://disney-clone-saguadodev.vercel.app/',
+          link: 'https://disney-clone-mcfrostys.vercel.app/',
           github: 'https://github.com/saguadodev/disney-clone',
           image: '/projects/disney-clone.webp',
           skills: ['React', 'Tailwind CSS']
@@ -342,7 +342,7 @@ export const labels = {
           title: 'Disney+ Clone',
           description:
             'Disney+ platform graphical interface clone made with React and Tailwind CSS. It includes a search system with TMDb API that retrieves movie data and images.',
-          link: 'https://disney-clone-saguadodev.vercel.app/',
+          link: 'https://disney-clone-mcfrostys.vercel.app/',
           github: 'https://github.com/saguadodev/disney-clone',
           image: '/projects/disney-clone.webp',
           skills: ['React', 'Tailwind CSS']
@@ -351,7 +351,7 @@ export const labels = {
           title: 'Spotify Astro',
           description:
             'Spotify music player clone with Astro, React, Svelte and Tailwind CSS. Animations, song playback, playlists and volume level control.',
-          link: 'https://spotify-astro-saguadodev.vercel.app/',
+          link: 'https://spotify-astro-mcfrostys.vercel.app/',
           github: 'https://github.com/saguadodev/spotify-astro',
           image: '/projects/spotify-astro.webp',
           skills: ['Astro', 'React', 'Svelte', 'TypeScript', 'Tailwind CSS']
