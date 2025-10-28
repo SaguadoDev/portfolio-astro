@@ -2,8 +2,9 @@
 import { ClientRouter } from 'astro:transitions'
 import { MouseShadow } from '@/components/MouseShadow.jsx'
 import SpeedInsights from '@vercel/speed-insights/astro'
-import '@fontsource-variable/vollkorn'
+import Analytics from '@vercel/analytics/astro'
 
+import '@fontsource-variable/vollkorn'
 const title = 'Sergio Aguado | Software  Developer'
 const description =
   'Soy Sergio Aguado, desarrollador Software  impulsado por diseñar y desarrollar experiencias digitales innovadoras y de alta calidad.'
@@ -58,6 +59,7 @@ const keywords =
   >
     <MouseShadow client:load />
     <SpeedInsights />
+    <Analytics />
     <slot />
     <style is:global>
       html {
