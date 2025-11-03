@@ -7,8 +7,12 @@ const currentLang = Astro.currentLocale || 'es'
 
 const translateLabels = useTranslations(currentLang as keyof typeof languageList)
 const skills = [
-  'HTML',
-  'CSS',
+  '.NET',
+  'C#',
+  'Blazor',
+  'SQL',
+  'SQL Server',
+  'Azure',
   'JavaScript',
   'TypeScript',
   'React',
@@ -34,7 +38,6 @@ const skills = [
       {translateLabels('about.paragraph1.content')}
       <strong>{translateLabels('about.paragraph1.studies')}</strong>
       {translateLabels('about.paragraph1.content2')}
-      <strong>{translateLabels('about.paragraph1.future')}</strong>
     </p>
 
     <p>
@@ -48,18 +51,7 @@ const skills = [
       {translateLabels('about.paragraph2.content3')}
     </p>
 
-    <p>
-      {translateLabels('about.paragraph3.content')}
-      <strong>{translateLabels('about.paragraph3.plans')}</strong>
-      {translateLabels('about.paragraph3.content2')}
-      <strong>{translateLabels('about.paragraph3.sports')}</strong>
-      {translateLabels('about.paragraph3.content3')}
-      <strong>{translateLabels('about.paragraph3.videos')}</strong>
-      {translateLabels('about.paragraph3.content4')}
-      <strong>{translateLabels('about.paragraph3.music')}</strong>
-      {translateLabels('about.paragraph3.content5')}
-    </p>
-    <p>{translateLabels('about.paragraph4.content')}</p>
+    <p>{translateLabels('about.paragraph3.content')}</p>
     <ul
       class='grid grid-cols-3 gap-x-6 md:gap-x-10 gap-y-0 p-0 overflow-hidden list-none lg:grid-cols-4'
     >

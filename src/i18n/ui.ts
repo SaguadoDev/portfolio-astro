@@ -20,7 +20,7 @@ export const labels = {
       cards: [
         {
           startDate: 'Marzo 2025',
-          endDate: 'Actualidad',
+          endDate: 'Octubre 2025',
           title: 'Desarrollador de Software',
           location: 'Toledo, España',
           company: 'SCIO Automation Spain',
@@ -181,10 +181,9 @@ export const labels = {
       title: 'Sobre mí',
       paragraph1: {
         content:
-          'Soy Sergio, un apasionado Desarrollador de software, especializado en dar vida a ideas en el vasto mundo del desarrollo web. Actualmente estoy recien graduado del grado superior de ',
-        studies: 'Desarrollo de Aplicaciones Web (DAW)',
-        content2: ', y estoy deseando hacer la ',
-        future: 'especialización en Inteligencia Artificial y Big Data.'
+          'Soy Sergio, un apasionado Desarrollador de software, especializado en dar vida a ideas en el vasto mundo del desarrollo web. Recientemente he finalizado mi experiencia en SCIO Automation Spain, donde trabajé como desarrollador de software en automatización industrial, y actualmente estoy ',
+        studies: 'buscando nuevas oportunidades',
+        content2: ' para seguir creciendo profesionalmente.'
       },
       paragraph2: {
         quote: `“Technology is moving at such a pace that if you stand still, you'll miss everything that's happening.”`,
@@ -196,17 +195,6 @@ export const labels = {
         content3: ' de crecer como desarrollador.'
       },
       paragraph3: {
-        content: 'En mi tiempo libre disfruto haciendo ',
-        plans: 'planes con familia, pareja y amigos',
-        content2: ', viendo los ',
-        sports: 'deportes',
-        content3: ' que me gustan, visualizando ',
-        videos: 'videos tecnológicos',
-        content4: ' y escuchando y alimentando mi pasión por la ',
-        music: 'música',
-        content5: ', entre otras cosas.'
-      },
-      paragraph4: {
         content:
           'Aquí hay algunas tecnologías con las que he estado trabajando recientemente:'
       }
@@ -229,7 +217,7 @@ export const labels = {
       cards: [
         {
           startDate: 'March 2025',
-          endDate: 'Present',
+          endDate: 'October 2025',
           title: 'Software Developer',
           location: 'Toledo, Spain',
           company: 'SCIO Automation Spain',
@@ -390,10 +378,9 @@ export const labels = {
       title: 'About me',
       paragraph1: {
         content:
-          'I am Sergio, a passionate Software Developer, specialized in bringing ideas to life in the vast world of web development. I am currently a recent graduate of the higher degree of ',
-        studies: 'Web Applications Development (DAW)',
-        content2: ', and I am looking forward to specializing in ',
-        future: 'Artificial Intelligence and Big Data.'
+          'I am Sergio, a passionate Software Developer, specialized in bringing ideas to life in the vast world of web development. I recently completed my experience at SCIO Automation Spain, where I worked as a software developer for industrial automation, and I am currently ',
+        studies: 'seeking new opportunities',
+        content2: ' to continue growing professionally.'
       },
       paragraph2: {
         quote: `“Technology is moving at such a pace that if you stand still, you'll miss everything that's happening.”`,
@@ -405,17 +392,6 @@ export const labels = {
         content3: ' to grow as a developer.'
       },
       paragraph3: {
-        content: 'In my free time I enjoy making ',
-        plans: 'plans with family, partner and friends',
-        content2: ', watching the ',
-        sports: 'sports',
-        content3: ' I like, watching ',
-        videos: 'technology videos',
-        content4: ' and listening to and feeding my passion for ',
-        music: 'music',
-        content5: ', among other things.'
-      },
-      paragraph4: {
         content: 'Here are some technologies I have been working with recently:'
       }
     }
