@@ -26,7 +26,7 @@ export const labels = {
           company: 'SCIO Automation Spain',
           description:
             'Desarrollo de middleware en automatización industrial con las tecnologías .NET y C# como lenguaje de programación principal.',
-          skills: ['C#', 'ASP.NET Core', 'Blazor', 'SQL Server', 'ZPL', 'Azure'],
+          skills: ['C#', '.Net', 'Blazor', 'SQL Server', 'ZPL', 'Azure'],
           imageName: 'scio-white',
           link: 'https://modumaq.com/'
         },
@@ -223,7 +223,7 @@ export const labels = {
           company: 'SCIO Automation Spain',
           description:
             'Development of middleware in industrial automation with .NET and C# as the main programming language.',
-          skills: ['C#', 'ASP.NET Core', 'Blazor', 'SQL Server', 'ZPL', 'Azure'],
+          skills: ['C#', '.Net', 'Blazor', 'SQL Server', 'ZPL', 'Azure'],
           imageName: 'scio-white',
           link: 'https://modumaq.com/'
         },
