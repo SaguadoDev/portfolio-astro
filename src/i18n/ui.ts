@@ -19,6 +19,27 @@ export const labels = {
       title: 'Experiencia',
       cards: [
         {
+          startDate: 'Diciembre 2025',
+          endDate: 'Presente',
+          title: 'Desarrollador Fullstack',
+          location: 'España',
+          company: 'Q2B STUDIO',
+          description:
+            'Desarrollo y mantenimiento de aplicaciones web full stack, desde la arquitectura del backend hasta la interfaz de usuario, trabajando en equipo con metodologías ágiles y enfoque en código limpio y escalable.',
+          skills: [
+            'C#',
+            '.Net',
+            'React',
+            'Next.js',
+            'Tailwind CSS',
+            'CSS',
+            'SQL Server',
+            'Azure'
+          ],
+          imageName: 'q2b',
+          link: 'https://q2bstudio.com/'
+        },
+        {
           startDate: 'Marzo 2025',
           endDate: 'Octubre 2025',
           title: 'Desarrollador de Software',
@@ -181,9 +202,9 @@ export const labels = {
       title: 'Sobre mí',
       paragraph1: {
         content:
-          'Soy Sergio, un apasionado Desarrollador de software, especializado en dar vida a ideas en el vasto mundo del desarrollo web. Recientemente he finalizado mi experiencia en SCIO Automation Spain, donde trabajé como desarrollador de software en automatización industrial, y actualmente estoy ',
-        studies: 'buscando nuevas oportunidades',
-        content2: ' para seguir creciendo profesionalmente.'
+          'Soy Sergio, un apasionado Desarrollador de software, especializado en dar vida a ideas en el vasto mundo del desarrollo web. Actualmente trabajo en Q2B STUDIO como desarrollador Fullstack, y sigo ',
+        studies: 'creciendo profesionalmente',
+        content2: ' día a día con nuevos retos y tecnologías.'
       },
       paragraph2: {
         quote: `“Technology is moving at such a pace that if you stand still, you'll miss everything that's happening.”`,
@@ -215,6 +236,27 @@ export const labels = {
     experience: {
       title: 'Experience',
       cards: [
+        {
+          startDate: 'December 2025',
+          endDate: 'Present',
+          title: 'Fullstack Developer',
+          location: 'Spain',
+          company: 'Q2B STUDIO',
+          description:
+            'Development and maintenance of full stack web applications, from backend architecture to user interface, working in a team with agile methodologies and a focus on clean, scalable code.',
+          skills: [
+            'C#',
+            '.Net',
+            'React',
+            'Next.js',
+            'Tailwind CSS',
+            'CSS',
+            'SQL Server',
+            'Azure'
+          ],
+          imageName: 'q2b',
+          link: 'https://q2bstudio.com/'
+        },
         {
           startDate: 'March 2025',
           endDate: 'October 2025',
@@ -378,9 +420,9 @@ export const labels = {
       title: 'About me',
       paragraph1: {
         content:
-          'I am Sergio, a passionate Software Developer, specialized in bringing ideas to life in the vast world of web development. I recently completed my experience at SCIO Automation Spain, where I worked as a software developer for industrial automation, and I am currently ',
-        studies: 'seeking new opportunities',
-        content2: ' to continue growing professionally.'
+          'I am Sergio, a passionate Software Developer, specialized in bringing ideas to life in the vast world of web development. I currently work at Q2B STUDIO as a Fullstack Developer, and I keep ',
+        studies: 'growing professionally',
+        content2: ' day by day with new challenges and technologies.'
       },
       paragraph2: {
         quote: `“Technology is moving at such a pace that if you stand still, you'll miss everything that's happening.”`,
