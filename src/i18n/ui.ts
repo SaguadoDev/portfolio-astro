@@ -20,12 +20,12 @@ export const labels = {
       cards: [
         {
           startDate: 'Diciembre 2025',
-          endDate: 'Presente',
+          endDate: 'Julio 2026',
           title: 'Desarrollador Fullstack',
-          location: 'España',
+          location: 'Remoto, España',
           company: 'Q2B STUDIO',
           description:
-            'Desarrollo y mantenimiento de aplicaciones web full stack, desde la arquitectura del backend hasta la interfaz de usuario, trabajando en equipo con metodologías ágiles y enfoque en código limpio y escalable.',
+            'Desarrollo de aplicaciones web full stack, desde la toma de requisitos hasta el despliegue en producción.',
           skills: [
             'C#',
             '.Net',
@@ -34,7 +34,8 @@ export const labels = {
             'Tailwind CSS',
             'CSS',
             'SQL Server',
-            'Azure'
+            'Azure',
+            'n8n'
           ],
           imageName: 'q2b',
           link: 'https://q2bstudio.com/'
@@ -202,7 +203,7 @@ export const labels = {
       title: 'Sobre mí',
       paragraph1: {
         content:
-          'Soy Sergio, un apasionado Desarrollador de software, especializado en dar vida a ideas en el vasto mundo del desarrollo web. Actualmente trabajo en Q2B STUDIO como desarrollador Fullstack, y sigo ',
+          'Soy Sergio, un apasionado Desarrollador de software, especializado en dar vida a ideas en el vasto mundo del desarrollo. Con experiencia como desarrollador Fullstack en empresas como Q2B STUDIO y SCIO Automation, sigo ',
         studies: 'creciendo profesionalmente',
         content2: ' día a día con nuevos retos y tecnologías.'
       },
@@ -238,12 +239,12 @@ export const labels = {
       cards: [
         {
           startDate: 'December 2025',
-          endDate: 'Present',
+          endDate: 'July 2026',
           title: 'Fullstack Developer',
-          location: 'Spain',
+          location: 'Remote, Spain',
           company: 'Q2B STUDIO',
           description:
-            'Development and maintenance of full stack web applications, from backend architecture to user interface, working in a team with agile methodologies and a focus on clean, scalable code.',
+            'Full stack web application development, from requirements gathering to production deployment.',
           skills: [
             'C#',
             '.Net',
@@ -252,7 +253,8 @@ export const labels = {
             'Tailwind CSS',
             'CSS',
             'SQL Server',
-            'Azure'
+            'Azure',
+            'n8n'
           ],
           imageName: 'q2b',
           link: 'https://q2bstudio.com/'
@@ -420,7 +422,7 @@ export const labels = {
       title: 'About me',
       paragraph1: {
         content:
-          'I am Sergio, a passionate Software Developer, specialized in bringing ideas to life in the vast world of web development. I currently work at Q2B STUDIO as a Fullstack Developer, and I keep ',
+          'I am Sergio, a passionate Software Developer, specialized in bringing ideas to life in the vast world of software development. With experience as a Fullstack Developer at companies like Q2B STUDIO and SCIO Automation, I keep ',
         studies: 'growing professionally',
         content2: ' day by day with new challenges and technologies.'
       },
