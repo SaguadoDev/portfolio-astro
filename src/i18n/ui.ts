@@ -101,6 +101,24 @@ export const labels = {
       title: 'Poyectos',
       cards: [
         {
+          title: 'Homelab',
+          description:
+            'Servidor doméstico que centraliza el DNS con filtrado para toda la casa, el gestor de contraseñas y el despliegue de mis proyectos personales. Todo corre en contenedores, accesible únicamente a través de Tailscale y sin abrir ni un puerto del router. El repositorio recoge la configuración, el bot de monitorización y las decisiones de arquitectura.',
+          link: 'https://github.com/SaguadoDev/homelab',
+          github: 'https://github.com/SaguadoDev/homelab',
+          image: '/projects/homelab.webp',
+          skills: [
+            'Docker',
+            'Docker Compose',
+            'Linux',
+            'Tailscale',
+            'PostgreSQL',
+            'Fastify',
+            'systemd',
+            'Bash'
+          ]
+        },
+        {
           title: 'Sistema de inspección de neumáticos',
           description:
             'Aplicación web que permite a los usuarios subir imágenes de neumáticos para ser inspeccionados por un modelo de Machine Learning propio.',
@@ -117,15 +135,16 @@ export const labels = {
             'Tailwind CSS'
           ]
         },
-        {
-          title: 'Disney+ Clone',
-          description:
-            'Clon de la interfaz gráfica de la plataforma Disney+ hecho con React y Tailwind CSS. Incluye sistema de búsqueda con TMDb API con la que se obtiene los datos e imagenes de las películas.',
-          link: 'https://disney-clone-mcfrostys.vercel.app/',
-          github: 'https://github.com/saguadodev/disney-clone',
-          image: '/projects/disney-clone.webp',
-          skills: ['React', 'Tailwind CSS']
-        }
+        // Archivado: clon de UI de 2024. Se conserva comentado por si se quiere volver a mostrar.
+        // {
+        // title: 'Disney+ Clone',
+        // description:
+        // 'Clon de la interfaz gráfica de la plataforma Disney+ hecho con React y Tailwind CSS. Incluye sistema de búsqueda con TMDb API con la que se obtiene los datos e imagenes de las películas.',
+        // link: 'https://disney-clone-mcfrostys.vercel.app/',
+        // github: 'https://github.com/saguadodev/disney-clone',
+        // image: '/projects/disney-clone.webp',
+        // skills: ['React', 'Tailwind CSS']
+        // }
       ],
       link: 'Ver todos los proyectos'
     },
@@ -135,6 +154,24 @@ export const labels = {
         'Aquí se encuentran todos los proyectos en los que he trabajado a lo largo de mi trayectoria como desarrollador.',
       cards: [
         {
+          title: 'Homelab',
+          description:
+            'Servidor doméstico que centraliza el DNS con filtrado para toda la casa, el gestor de contraseñas y el despliegue de mis proyectos personales. Todo corre en contenedores, accesible únicamente a través de Tailscale.',
+          link: 'https://github.com/SaguadoDev/homelab',
+          github: 'https://github.com/SaguadoDev/homelab',
+          image: '/projects/homelab.webp',
+          skills: [
+            'Docker',
+            'Docker Compose',
+            'Linux',
+            'Tailscale',
+            'PostgreSQL',
+            'Fastify',
+            'systemd',
+            'Bash'
+          ]
+        },
+        {
           title: 'Sistema de inspección de neumáticos',
           description:
             'Aplicación web que permite a los usuarios subir imágenes de neumáticos para ser inspeccionados por un modelo de Machine Learning propio.',
@@ -151,42 +188,46 @@ export const labels = {
             'Tailwind CSS'
           ]
         },
-        {
-          title: 'Disney+ Clone',
-          description:
-            'Clon de la interfaz gráfica de la plataforma Disney+ hecho con React y Tailwind CSS. Incluye sistema de búsqueda con TMDb API con la que se obtiene los datos e imagenes de las películas.',
-          link: 'https://disney-clone-mcfrostys.vercel.app/',
-          github: 'https://github.com/saguadodev/disney-clone',
-          image: '/projects/disney-clone.webp',
-          skills: ['React', 'Tailwind CSS']
-        },
-        {
-          title: 'Spotify Astro',
-          description:
-            'Clon del reproductor de música Spotify con Astro, React, Svelte y Tailwind CSS. Animaciones, reproducción de canciones, listas de reproducción y control del nivel de volumen.',
-          link: 'https://spotify-astro-mcfrostys.vercel.app/',
-          github: 'https://github.com/saguadodev/spotify-astro',
-          image: '/projects/spotify-astro.webp',
-          skills: ['Astro', 'React', 'Svelte', 'TypeScript', 'Tailwind CSS']
-        },
-        {
-          title: 'World Data',
-          description:
-            'Aplicación web para ver todos los países del mundo, con su respectiva bandera, nombre, capital, lenguajes y población. Se puede buscar, filtrar y ver una serie de gráficos.',
-          link: 'https://saguadodev.github.io/WorldData/',
-          github: 'https://github.com/saguadodev/WorldData',
-          image: '/projects/world-countries-data.webp',
-          skills: ['HTML', 'CSS', 'JavaScript']
-        },
-        {
-          title: 'Fridge',
-          description:
-            'Proyecto personal para gestionar los alimentos, puedes añadir alimentos con su nombre, foto, fecha de caducidad y categoría. De esta forma podrás saber qué alimentos tienes en tu nevera y cuándo caducan.',
-          link: 'https://saguadodev.github.io/fridge/',
-          github: 'https://github.com/saguadodev/fridge',
-          image: '/projects/fridge.webp',
-          skills: ['HTML', 'CSS', 'JavaScript']
-        },
+        // Archivado: clon de UI de 2024. Se conserva comentado por si se quiere volver a mostrar.
+        // {
+        // title: 'Disney+ Clone',
+        // description:
+        // 'Clon de la interfaz gráfica de la plataforma Disney+ hecho con React y Tailwind CSS. Incluye sistema de búsqueda con TMDb API con la que se obtiene los datos e imagenes de las películas.',
+        // link: 'https://disney-clone-mcfrostys.vercel.app/',
+        // github: 'https://github.com/saguadodev/disney-clone',
+        // image: '/projects/disney-clone.webp',
+        // skills: ['React', 'Tailwind CSS']
+        // },
+        // Archivado: clon de UI de 2024. Se conserva comentado por si se quiere volver a mostrar.
+        // {
+        // title: 'Spotify Astro',
+        // description:
+        // 'Clon del reproductor de música Spotify con Astro, React, Svelte y Tailwind CSS. Animaciones, reproducción de canciones, listas de reproducción y control del nivel de volumen.',
+        // link: 'https://spotify-astro-mcfrostys.vercel.app/',
+        // github: 'https://github.com/saguadodev/spotify-astro',
+        // image: '/projects/spotify-astro.webp',
+        // skills: ['Astro', 'React', 'Svelte', 'TypeScript', 'Tailwind CSS']
+        // },
+        // Archivado: proyecto antiguo. Se conserva comentado por si se quiere volver a mostrar.
+        // {
+        // title: 'World Data',
+        // description:
+        // 'Aplicación web para ver todos los países del mundo, con su respectiva bandera, nombre, capital, lenguajes y población. Se puede buscar, filtrar y ver una serie de gráficos.',
+        // link: 'https://saguadodev.github.io/WorldData/',
+        // github: 'https://github.com/saguadodev/WorldData',
+        // image: '/projects/world-countries-data.webp',
+        // skills: ['HTML', 'CSS', 'JavaScript']
+        // },
+        // Archivado: proyecto antiguo. Se conserva comentado por si se quiere volver a mostrar.
+        // {
+        // title: 'Fridge',
+        // description:
+        // 'Proyecto personal para gestionar los alimentos, puedes añadir alimentos con su nombre, foto, fecha de caducidad y categoría. De esta forma podrás saber qué alimentos tienes en tu nevera y cuándo caducan.',
+        // link: 'https://saguadodev.github.io/fridge/',
+        // github: 'https://github.com/saguadodev/fridge',
+        // image: '/projects/fridge.webp',
+        // skills: ['HTML', 'CSS', 'JavaScript']
+        // },
         {
           title: 'Netflix Logic',
           description:
@@ -320,6 +361,24 @@ export const labels = {
       title: 'Projects',
       cards: [
         {
+          title: 'Homelab',
+          description:
+            'Home server that centralizes household-wide filtered DNS, a self-hosted password manager and the deployment of my personal projects. Everything runs in containers, reachable only through Tailscale with no router ports open. The repo documents the configuration, the monitoring bot and the architecture decisions.',
+          link: 'https://github.com/SaguadoDev/homelab',
+          github: 'https://github.com/SaguadoDev/homelab',
+          image: '/projects/homelab.webp',
+          skills: [
+            'Docker',
+            'Docker Compose',
+            'Linux',
+            'Tailscale',
+            'PostgreSQL',
+            'Fastify',
+            'systemd',
+            'Bash'
+          ]
+        },
+        {
           title: 'Tire Inspection System',
           description:
             'Web application that allows users to upload tire images to be inspected by a proprietary Machine Learning model.',
@@ -336,15 +395,16 @@ export const labels = {
             'Tailwind CSS'
           ]
         },
-        {
-          title: 'Disney+ Clone',
-          description:
-            'Disney+ platform graphical interface clone made with React and Tailwind CSS. It includes a search system with TMDb API that retrieves movie data and images.',
-          link: 'https://disney-clone-mcfrostys.vercel.app/',
-          github: 'https://github.com/saguadodev/disney-clone',
-          image: '/projects/disney-clone.webp',
-          skills: ['React', 'Tailwind CSS']
-        }
+        // Archived: 2024 UI clone. Kept commented out in case it is shown again.
+        // {
+        // title: 'Disney+ Clone',
+        // description:
+        // 'Disney+ platform graphical interface clone made with React and Tailwind CSS. It includes a search system with TMDb API that retrieves movie data and images.',
+        // link: 'https://disney-clone-mcfrostys.vercel.app/',
+        // github: 'https://github.com/saguadodev/disney-clone',
+        // image: '/projects/disney-clone.webp',
+        // skills: ['React', 'Tailwind CSS']
+        // }
       ],
       link: 'View all projects'
     },
@@ -354,6 +414,24 @@ export const labels = {
         'Here are all the projects I have worked on throughout my career as a developer.',
       cards: [
         {
+          title: 'Homelab',
+          description:
+            'Home server that centralizes household-wide filtered DNS, a self-hosted password manager and the deployment of my personal projects. Everything runs in containers, reachable only through Tailscale.',
+          link: 'https://github.com/SaguadoDev/homelab',
+          github: 'https://github.com/SaguadoDev/homelab',
+          image: '/projects/homelab.webp',
+          skills: [
+            'Docker',
+            'Docker Compose',
+            'Linux',
+            'Tailscale',
+            'PostgreSQL',
+            'Fastify',
+            'systemd',
+            'Bash'
+          ]
+        },
+        {
           title: 'Tire Inspection System',
           description:
             'Web application that allows users to upload tire images to be inspected by a proprietary Machine Learning model.',
@@ -370,42 +448,46 @@ export const labels = {
             'Tailwind CSS'
           ]
         },
-        {
-          title: 'Disney+ Clone',
-          description:
-            'Disney+ platform graphical interface clone made with React and Tailwind CSS. It includes a search system with TMDb API that retrieves movie data and images.',
-          link: 'https://disney-clone-mcfrostys.vercel.app/',
-          github: 'https://github.com/saguadodev/disney-clone',
-          image: '/projects/disney-clone.webp',
-          skills: ['React', 'Tailwind CSS']
-        },
-        {
-          title: 'Spotify Astro',
-          description:
-            'Spotify music player clone with Astro, React, Svelte and Tailwind CSS. Animations, song playback, playlists and volume level control.',
-          link: 'https://spotify-astro-mcfrostys.vercel.app/',
-          github: 'https://github.com/saguadodev/spotify-astro',
-          image: '/projects/spotify-astro.webp',
-          skills: ['Astro', 'React', 'Svelte', 'TypeScript', 'Tailwind CSS']
-        },
-        {
-          title: 'World Data',
-          description:
-            'Web application to view all the countries in the world, with their respective flag, name, capital, languages and population. You can search, filter and view a series of graphs.',
-          link: 'https://saguadodev.github.io/WorldData/',
-          github: 'https://github.com/saguadodev/WorldData',
-          image: '/projects/world-countries-data.webp',
-          skills: ['HTML', 'CSS', 'JavaScript']
-        },
-        {
-          title: 'Fridge',
-          description:
-            'Personal project to manage food, you can add food with its name, photo, expiration date and category. This way you will know what food you have in your fridge and when it expires.',
-          link: 'https://saguadodev.github.io/fridge/',
-          github: 'https://github.com/saguadodev/fridge',
-          image: '/projects/fridge.webp',
-          skills: ['HTML', 'CSS', 'JavaScript']
-        },
+        // Archived: 2024 UI clone. Kept commented out in case it is shown again.
+        // {
+        // title: 'Disney+ Clone',
+        // description:
+        // 'Disney+ platform graphical interface clone made with React and Tailwind CSS. It includes a search system with TMDb API that retrieves movie data and images.',
+        // link: 'https://disney-clone-mcfrostys.vercel.app/',
+        // github: 'https://github.com/saguadodev/disney-clone',
+        // image: '/projects/disney-clone.webp',
+        // skills: ['React', 'Tailwind CSS']
+        // },
+        // Archived: 2024 UI clone. Kept commented out in case it is shown again.
+        // {
+        // title: 'Spotify Astro',
+        // description:
+        // 'Spotify music player clone with Astro, React, Svelte and Tailwind CSS. Animations, song playback, playlists and volume level control.',
+        // link: 'https://spotify-astro-mcfrostys.vercel.app/',
+        // github: 'https://github.com/saguadodev/spotify-astro',
+        // image: '/projects/spotify-astro.webp',
+        // skills: ['Astro', 'React', 'Svelte', 'TypeScript', 'Tailwind CSS']
+        // },
+        // Archived: older project. Kept commented out in case it is shown again.
+        // {
+        // title: 'World Data',
+        // description:
+        // 'Web application to view all the countries in the world, with their respective flag, name, capital, languages and population. You can search, filter and view a series of graphs.',
+        // link: 'https://saguadodev.github.io/WorldData/',
+        // github: 'https://github.com/saguadodev/WorldData',
+        // image: '/projects/world-countries-data.webp',
+        // skills: ['HTML', 'CSS', 'JavaScript']
+        // },
+        // Archived: older project. Kept commented out in case it is shown again.
+        // {
+        // title: 'Fridge',
+        // description:
+        // 'Personal project to manage food, you can add food with its name, photo, expiration date and category. This way you will know what food you have in your fridge and when it expires.',
+        // link: 'https://saguadodev.github.io/fridge/',
+        // github: 'https://github.com/saguadodev/fridge',
+        // image: '/projects/fridge.webp',
+        // skills: ['HTML', 'CSS', 'JavaScript']
+        // },
         {
           title: 'Netflix Logic',
           description:
