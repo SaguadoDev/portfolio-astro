@@ -98,7 +98,7 @@ export const labels = {
       ]
     },
     projects: {
-      title: 'Poyectos',
+      title: 'Proyectos',
       cards: [
         {
           title: 'Servidor Linux autoalojado',

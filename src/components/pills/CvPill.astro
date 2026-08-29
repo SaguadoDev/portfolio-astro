@@ -1,23 +1,25 @@
 ---
-import Download from '../icons/Download.astro'
+import Download from "../icons/Download.astro";
 
-import { useTranslations } from '@/i18n/utils'
-import { languageList } from '@/i18n/ui'
+import { useTranslations } from "@/i18n/utils";
+import { languageList } from "@/i18n/ui";
 
-const currentLang = Astro.currentLocale || 'es'
+const currentLang = Astro.currentLocale || "es";
 
-const translateLabels = useTranslations(currentLang as keyof typeof languageList)
+const translateLabels = useTranslations(
+  currentLang as keyof typeof languageList,
+);
 ---
 
 <a
-  href='/Mi CV.pdf'
-  target='_blank'
-  rel='noopener noreferrer'
-  role='link'
-  class='inline-flex items-center justify-center gap-2 px-4 py-1 transition border-2
+  href="/CV Sergio Aguado.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  role="link"
+  class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border-2
   rounded-full border-teal-white text-white focus-visible:bg-slate-400/20 text-md
-  hover:bg-slate-400/20 hover:scale-105'
+  hover:bg-slate-400/20 hover:scale-105"
 >
-  <Download class='size-4' />
-  {translateLabels('hero.pills.resume')}
+  <Download class="size-4" />
+  {translateLabels("hero.pills.resume")}
 </a>
