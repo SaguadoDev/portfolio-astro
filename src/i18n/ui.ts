@@ -101,7 +101,7 @@ export const labels = {
       title: 'Poyectos',
       cards: [
         {
-          title: 'Homelab',
+          title: 'Servidor Linux autoalojado',
           description:
             'Servidor doméstico que centraliza el DNS con filtrado para toda la casa, el gestor de contraseñas y el despliegue de mis proyectos personales. Todo corre en contenedores, accesible únicamente a través de Tailscale y sin abrir ni un puerto del router. El repositorio recoge la configuración, el bot de monitorización y las decisiones de arquitectura.',
           link: 'https://github.com/SaguadoDev/homelab',
@@ -154,7 +154,7 @@ export const labels = {
         'Aquí se encuentran todos los proyectos en los que he trabajado a lo largo de mi trayectoria como desarrollador.',
       cards: [
         {
-          title: 'Homelab',
+          title: 'Servidor Linux autoalojado',
           description:
             'Servidor doméstico que centraliza el DNS con filtrado para toda la casa, el gestor de contraseñas y el despliegue de mis proyectos personales. Todo corre en contenedores, accesible únicamente a través de Tailscale.',
           link: 'https://github.com/SaguadoDev/homelab',
@@ -361,7 +361,7 @@ export const labels = {
       title: 'Projects',
       cards: [
         {
-          title: 'Homelab',
+          title: 'Self-hosted Linux server',
           description:
             'Home server that centralizes household-wide filtered DNS, a self-hosted password manager and the deployment of my personal projects. Everything runs in containers, reachable only through Tailscale with no router ports open. The repo documents the configuration, the monitoring bot and the architecture decisions.',
           link: 'https://github.com/SaguadoDev/homelab',
@@ -414,7 +414,7 @@ export const labels = {
         'Here are all the projects I have worked on throughout my career as a developer.',
       cards: [
         {
-          title: 'Homelab',
+          title: 'Self-hosted Linux server',
           description:
             'Home server that centralizes household-wide filtered DNS, a self-hosted password manager and the deployment of my personal projects. Everything runs in containers, reachable only through Tailscale.',
           link: 'https://github.com/SaguadoDev/homelab',
